@@ -34,7 +34,6 @@ let weather = {
         document.querySelector('.humidity').innerText = 'Humidity: ' + humidity + '%'
         document.querySelector('.wind').innerText = 'Wind speed: ' + speed + 'km/h'
         document.querySelector('.weather').classList.remove('loading')
-
     },
     fetchBackgroundImage: function (city) {
         const unsplashApiKey = 'zNwzT6YTD8puWk6b6f6VIQyNnmsM3ePxHOSsiNu9fuM'
